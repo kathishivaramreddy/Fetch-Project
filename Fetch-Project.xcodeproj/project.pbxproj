@@ -12,7 +12,6 @@
 		7EFA306A6F109E90E3B2BF9A /* Pods_Fetch_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D6EEC6F31599529B75F03 /* Pods_Fetch_ProjectTests.framework */; };
 		F5E187582C21620300223D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187572C21620300223D99 /* AppDelegate.swift */; };
 		F5E1875A2C21620300223D99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187592C21620300223D99 /* SceneDelegate.swift */; };
-		F5E1875C2C21620300223D99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1875B2C21620300223D99 /* ViewController.swift */; };
 		F5E1875F2C21620300223D99 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5E1875E2C21620300223D99 /* Base */; };
 		F5E187622C21620300223D99 /* Fetch_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5E187602C21620300223D99 /* Fetch_Project.xcdatamodeld */; };
 		F5E187642C21620400223D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E187632C21620400223D99 /* Assets.xcassets */; };
@@ -24,6 +23,8 @@
 		F5E1878E2C2169BF00223D99 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1878D2C2169BF00223D99 /* MealDetail.swift */; };
 		F5E187912C216A6D00223D99 /* MealListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187902C216A6D00223D99 /* MealListViewModel.swift */; };
 		F5E187932C216B1C00223D99 /* MealDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187922C216B1C00223D99 /* MealDetailViewModel.swift */; };
+		F5E187952C21766D00223D99 /* MealListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187942C21766D00223D99 /* MealListViewController.swift */; };
+		F5E187972C21769800223D99 /* MealDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187962C21769800223D99 /* MealDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +57,6 @@
 		F5E187542C21620300223D99 /* Fetch-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E187572C21620300223D99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5E187592C21620300223D99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5E1875B2C21620300223D99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F5E1875E2C21620300223D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5E187612C21620300223D99 /* Fetch_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fetch_Project.xcdatamodel; sourceTree = "<group>"; };
 		F5E187632C21620400223D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +71,8 @@
 		F5E1878D2C2169BF00223D99 /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
 		F5E187902C216A6D00223D99 /* MealListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListViewModel.swift; sourceTree = "<group>"; };
 		F5E187922C216B1C00223D99 /* MealDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewModel.swift; sourceTree = "<group>"; };
+		F5E187942C21766D00223D99 /* MealListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListViewController.swift; sourceTree = "<group>"; };
+		F5E187962C21769800223D99 /* MealDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,12 +155,13 @@
 				F5E1878A2C21688C00223D99 /* Model */,
 				F5E187572C21620300223D99 /* AppDelegate.swift */,
 				F5E187592C21620300223D99 /* SceneDelegate.swift */,
-				F5E1875B2C21620300223D99 /* ViewController.swift */,
 				F5E1875D2C21620300223D99 /* Main.storyboard */,
 				F5E187632C21620400223D99 /* Assets.xcassets */,
 				F5E187652C21620400223D99 /* LaunchScreen.storyboard */,
 				F5E187682C21620400223D99 /* Info.plist */,
 				F5E187602C21620300223D99 /* Fetch_Project.xcdatamodeld */,
+				F5E187942C21766D00223D99 /* MealListViewController.swift */,
+				F5E187962C21769800223D99 /* MealDetailViewController.swift */,
 			);
 			path = "Fetch-Project";
 			sourceTree = "<group>";
@@ -438,7 +441,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E1878C2C2168A500223D99 /* Meal.swift in Sources */,
-				F5E1875C2C21620300223D99 /* ViewController.swift in Sources */,
+				F5E187952C21766D00223D99 /* MealListViewController.swift in Sources */,
+				F5E187972C21769800223D99 /* MealDetailViewController.swift in Sources */,
 				F5E187932C216B1C00223D99 /* MealDetailViewModel.swift in Sources */,
 				F5E187912C216A6D00223D99 /* MealListViewModel.swift in Sources */,
 				F5E187582C21620300223D99 /* AppDelegate.swift in Sources */,
