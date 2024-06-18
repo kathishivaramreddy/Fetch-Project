@@ -22,6 +22,7 @@
 		F5E1877E2C21620400223D99 /* Fetch_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1877D2C21620400223D99 /* Fetch_ProjectUITestsLaunchTests.swift */; };
 		F5E1878C2C2168A500223D99 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1878B2C2168A500223D99 /* Meal.swift */; };
 		F5E1878E2C2169BF00223D99 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1878D2C2169BF00223D99 /* MealDetail.swift */; };
+		F5E187912C216A6D00223D99 /* MealListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187902C216A6D00223D99 /* MealListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		F5E1877D2C21620400223D99 /* Fetch_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F5E1878B2C2168A500223D99 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		F5E1878D2C2169BF00223D99 /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+		F5E187902C216A6D00223D99 /* MealListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		F5E187562C21620300223D99 /* Fetch-Project */ = {
 			isa = PBXGroup;
 			children = (
+				F5E1878F2C216A5700223D99 /* ViewModel */,
 				F5E1878A2C21688C00223D99 /* Model */,
 				F5E187572C21620300223D99 /* AppDelegate.swift */,
 				F5E187592C21620300223D99 /* SceneDelegate.swift */,
@@ -182,6 +185,14 @@
 				F5E1878D2C2169BF00223D99 /* MealDetail.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F5E1878F2C216A5700223D99 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5E187902C216A6D00223D99 /* MealListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,6 +436,7 @@
 			files = (
 				F5E1878C2C2168A500223D99 /* Meal.swift in Sources */,
 				F5E1875C2C21620300223D99 /* ViewController.swift in Sources */,
+				F5E187912C216A6D00223D99 /* MealListViewModel.swift in Sources */,
 				F5E187582C21620300223D99 /* AppDelegate.swift in Sources */,
 				F5E1878E2C2169BF00223D99 /* MealDetail.swift in Sources */,
 				F5E187622C21620300223D99 /* Fetch_Project.xcdatamodeld in Sources */,
