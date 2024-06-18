@@ -20,6 +20,8 @@
 		F5E187722C21620400223D99 /* Fetch_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187712C21620400223D99 /* Fetch_ProjectTests.swift */; };
 		F5E1877C2C21620400223D99 /* Fetch_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1877B2C21620400223D99 /* Fetch_ProjectUITests.swift */; };
 		F5E1877E2C21620400223D99 /* Fetch_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1877D2C21620400223D99 /* Fetch_ProjectUITestsLaunchTests.swift */; };
+		F5E1878C2C2168A500223D99 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1878B2C2168A500223D99 /* Meal.swift */; };
+		F5E1878E2C2169BF00223D99 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1878D2C2169BF00223D99 /* MealDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		F5E187772C21620400223D99 /* Fetch-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E1877B2C21620400223D99 /* Fetch_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_ProjectUITests.swift; sourceTree = "<group>"; };
 		F5E1877D2C21620400223D99 /* Fetch_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5E1878B2C2168A500223D99 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		F5E1878D2C2169BF00223D99 /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,6 @@
 				4F946E3E7EB5FCFF455F6F87 /* Pods-Fetch-ProjectTests.debug.xcconfig */,
 				AD1830B011B5AE80691DD16E /* Pods-Fetch-ProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,6 +145,7 @@
 		F5E187562C21620300223D99 /* Fetch-Project */ = {
 			isa = PBXGroup;
 			children = (
+				F5E1878A2C21688C00223D99 /* Model */,
 				F5E187572C21620300223D99 /* AppDelegate.swift */,
 				F5E187592C21620300223D99 /* SceneDelegate.swift */,
 				F5E1875B2C21620300223D99 /* ViewController.swift */,
@@ -169,6 +173,15 @@
 				F5E1877D2C21620400223D99 /* Fetch_ProjectUITestsLaunchTests.swift */,
 			);
 			path = "Fetch-ProjectUITests";
+			sourceTree = "<group>";
+		};
+		F5E1878A2C21688C00223D99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5E1878B2C2168A500223D99 /* Meal.swift */,
+				F5E1878D2C2169BF00223D99 /* MealDetail.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,8 +423,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E1878C2C2168A500223D99 /* Meal.swift in Sources */,
 				F5E1875C2C21620300223D99 /* ViewController.swift in Sources */,
 				F5E187582C21620300223D99 /* AppDelegate.swift in Sources */,
+				F5E1878E2C2169BF00223D99 /* MealDetail.swift in Sources */,
 				F5E187622C21620300223D99 /* Fetch_Project.xcdatamodeld in Sources */,
 				F5E1875A2C21620300223D99 /* SceneDelegate.swift in Sources */,
 			);
