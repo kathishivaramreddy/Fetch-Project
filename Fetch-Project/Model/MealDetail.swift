@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 struct MealDetail: Codable {
     let idMeal: String
     let strMeal: String

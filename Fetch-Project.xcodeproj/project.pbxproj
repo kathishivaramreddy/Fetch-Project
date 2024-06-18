@@ -23,6 +23,7 @@
 		F5E1878C2C2168A500223D99 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1878B2C2168A500223D99 /* Meal.swift */; };
 		F5E1878E2C2169BF00223D99 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1878D2C2169BF00223D99 /* MealDetail.swift */; };
 		F5E187912C216A6D00223D99 /* MealListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187902C216A6D00223D99 /* MealListViewModel.swift */; };
+		F5E187932C216B1C00223D99 /* MealDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187922C216B1C00223D99 /* MealDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		F5E1878B2C2168A500223D99 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		F5E1878D2C2169BF00223D99 /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
 		F5E187902C216A6D00223D99 /* MealListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListViewModel.swift; sourceTree = "<group>"; };
+		F5E187922C216B1C00223D99 /* MealDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				F5E187902C216A6D00223D99 /* MealListViewModel.swift */,
+				F5E187922C216B1C00223D99 /* MealDetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 			files = (
 				F5E1878C2C2168A500223D99 /* Meal.swift in Sources */,
 				F5E1875C2C21620300223D99 /* ViewController.swift in Sources */,
+				F5E187932C216B1C00223D99 /* MealDetailViewModel.swift in Sources */,
 				F5E187912C216A6D00223D99 /* MealListViewModel.swift in Sources */,
 				F5E187582C21620300223D99 /* AppDelegate.swift in Sources */,
 				F5E1878E2C2169BF00223D99 /* MealDetail.swift in Sources */,
