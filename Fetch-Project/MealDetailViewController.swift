@@ -13,6 +13,9 @@ class MealDetailViewController: UIViewController {
     var mealID: String?
     private let viewModel = MealDetailViewModel()
     
+    private let scrollView = UIScrollView()
+    private let contentView = UIView()
+    
     private let nameLabel = UILabel()
     private let instructionsLabel = UILabel()
     private let ingredientsLabel = UILabel()
@@ -26,14 +29,34 @@ class MealDetailViewController: UIViewController {
     private func setupViews() {
         view.backgroundColor = .white
         
+        // Add scroll view and content view
+        view.addSubview(scrollView)
+        scrollView.addSubview(contentView)
+        
+        scrollView.snp.makeConstraints { make in
+            make.edges.equalTo(view.safeAreaLayoutGuide)
+        }
+        
+        contentView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+            make.width.equalTo(scrollView.snp.width) // Ensure contentView's width is same as scrollView's width
+        }
+        
+        // Add labels to content view
+        contentView.addSubview(nameLabel)
+        contentView.addSubview(instructionsLabel)
+        contentView.addSubview(ingredientsLabel)
+        
         let stackView = UIStackView(arrangedSubviews: [nameLabel, instructionsLabel, ingredientsLabel])
         stackView.axis = .vertical
         stackView.spacing = 16
-        view.addSubview(stackView)
+        contentView.addSubview(stackView)
         
         stackView.snp.makeConstraints { make in
-            make.top.equalTo(view.safeAreaLayoutGuide).offset(16)
-            make.leading.trailing.equalToSuperview().inset(16)
+            make.top.equalTo(contentView).offset(16)
+            make.leading.equalTo(contentView).offset(16)
+            make.trailing.equalTo(contentView).offset(-16)
+            make.bottom.equalTo(contentView).offset(-16)
         }
         
         nameLabel.font = UIFont.boldSystemFont(ofSize: 24)

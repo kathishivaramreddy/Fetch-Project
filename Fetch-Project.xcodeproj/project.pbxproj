@@ -25,6 +25,8 @@
 		F5E187932C216B1C00223D99 /* MealDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187922C216B1C00223D99 /* MealDetailViewModel.swift */; };
 		F5E187952C21766D00223D99 /* MealListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187942C21766D00223D99 /* MealListViewController.swift */; };
 		F5E187972C21769800223D99 /* MealDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E187962C21769800223D99 /* MealDetailViewController.swift */; };
+		F5E187992C217BAE00223D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E187652C21620400223D99 /* LaunchScreen.storyboard */; };
+		F5E1879B2C2289A300223D99 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E1879A2C2289A200223D99 /* MealTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,7 @@
 		F5E187922C216B1C00223D99 /* MealDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewModel.swift; sourceTree = "<group>"; };
 		F5E187942C21766D00223D99 /* MealListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListViewController.swift; sourceTree = "<group>"; };
 		F5E187962C21769800223D99 /* MealDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewController.swift; sourceTree = "<group>"; };
+		F5E1879A2C2289A200223D99 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,7 @@
 				F5E187682C21620400223D99 /* Info.plist */,
 				F5E187602C21620300223D99 /* Fetch_Project.xcdatamodeld */,
 				F5E187942C21766D00223D99 /* MealListViewController.swift */,
+				F5E1879A2C2289A200223D99 /* MealTableViewCell.swift */,
 				F5E187962C21769800223D99 /* MealDetailViewController.swift */,
 			);
 			path = "Fetch-Project";
@@ -311,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E187642C21620400223D99 /* Assets.xcassets in Resources */,
+				F5E187992C217BAE00223D99 /* LaunchScreen.storyboard in Resources */,
 				F5E187672C21620400223D99 /* Base in Resources */,
 				F5E1875F2C21620300223D99 /* Base in Resources */,
 			);
@@ -444,6 +449,7 @@
 				F5E187952C21766D00223D99 /* MealListViewController.swift in Sources */,
 				F5E187972C21769800223D99 /* MealDetailViewController.swift in Sources */,
 				F5E187932C216B1C00223D99 /* MealDetailViewModel.swift in Sources */,
+				F5E1879B2C2289A300223D99 /* MealTableViewCell.swift in Sources */,
 				F5E187912C216A6D00223D99 /* MealListViewModel.swift in Sources */,
 				F5E187582C21620300223D99 /* AppDelegate.swift in Sources */,
 				F5E1878E2C2169BF00223D99 /* MealDetail.swift in Sources */,
@@ -632,6 +638,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 255529GUNH;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Fetch-Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -661,6 +668,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 255529GUNH;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Fetch-Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
